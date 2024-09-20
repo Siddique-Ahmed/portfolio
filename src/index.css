@@ -364,7 +364,94 @@ SKILLS PAGE STYLING..........
   color: #f16529;
   align-self: center;
 }
-
+/*
+PROJECT SECTION STYLING..........
+*/
+.project-section {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 30px 20px;
+  background: rgba(228, 228, 228, 0.33);
+  transition: 0.3s ease-in-out;
+}
+.project-section h1 {
+  font-size: 28px;
+  color: #e41b24;
+}
+.project-section p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #aaa;
+}
+.project-section .project-box {
+  width: 100%;
+  min-height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+.project-box .boxes {
+  width: 350px;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px 15px;
+  border-radius: 12px;
+  background: #fff;
+  margin: 10px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.065), 0 0 8px rgba(0, 0, 0, 0.065);
+}
+.boxes:hover{
+  transform: scale(1.03);
+}
+.boxes img{
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  object-position: top;
+}
+.boxes h5{
+  font-size: 21px;
+  color: #e41b24;
+  margin: 10px 0;
+}
+.boxes p{
+  font-size: 17px;
+  color: #000;
+  text-align: center;
+  margin: 7px 0;
+  text-align: center;
+}
+.boxes .button-box{
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.button-box button{
+  width: 90px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  background: #e41b24;
+  color: #fff;
+  cursor: pointer;
+}
 /*
 FOOTER STYLING..............
 */
@@ -483,8 +570,12 @@ ABOUT PAGE MEDIA........
   /*
   CONTACT PAGE MEDIA.......
   */
+  .contact-section {
+    padding: 15px 7px;
+  }
   .contact-section .leftSide {
     display: none;
+    width: 0;
   }
   .contact-section .rightSide {
     width: 100%;

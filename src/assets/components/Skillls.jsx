@@ -10,7 +10,7 @@ const Skillls = () => {
       }}
       className="skill-section"
     >
-      <h1>Skills</h1>
+      <h1>Professional Skills</h1>
       <div className="card-box">
         {cards.map((data, ind) => {
           return (
