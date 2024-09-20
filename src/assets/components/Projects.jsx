@@ -7,8 +7,6 @@ import projects from "../components/projectdata";
 const Projects = () => {
   const { theme } = useContext(ThemeContext);
 
-  console.log(projects);
-
   return (
     <section
       style={{
